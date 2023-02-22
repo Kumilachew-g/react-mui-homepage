@@ -1,6 +1,5 @@
 import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
-import { Grid } from '@material-ui/core';
 import { Typography } from '@material-ui/core';
 
 const useStyles = makeStyles((theme) => ({
@@ -30,9 +29,10 @@ function MainContent() {
       </div>
       <div className={classes.content}>
         <Typography paragraph>
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc maximus,
-          nulla ut commodo sagittis, sapien dui mattis dui, non pulvinar lorem
-          felis nec erat
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book.
         </Typography>
       </div>
     </main>
